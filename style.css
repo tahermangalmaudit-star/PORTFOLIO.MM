@@ -473,17 +473,18 @@ body{
 .track {
   display: flex;
   width: max-content;
-  animation: scroll-left 4s linear infinite; /* VERY FAST */
+  animation: scroll-left 15s linear infinite;
 }
 
 .marquee.right .track {
-  animation: scroll-right 4s linear infinite;
+  animation: scroll-right 15s linear infinite;
 }
 
 .marquee img {
   height: 21.5vh;
   margin: 0 12px;
 }
+
 /* LEFT SCROLL */
 @keyframes scroll-left {
   0% {
